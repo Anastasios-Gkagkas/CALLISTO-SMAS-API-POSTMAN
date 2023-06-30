@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "d113d481-afac-4bbf-916d-fd1052b1f9d6",
+		"name": "SMAS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17587850",
+		"_collection_link": "https://cerths.postman.co/workspace/M4D-Group-APIs~2388140b-f9d8-4154-b602-75d29ff5fee7/collection/17587850-d113d481-afac-4bbf-916d-fd1052b1f9d6?action=share&creator=17587850&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "GetTotalTweets Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usecase\": \"border_surveillance\",\r\n    \"lang\": \"en\",\r\n    \"from\": 1669284293671,\r\n    \"to\": 1669889093671,\r\n    \"keyword\": \"\",\r\n    \"location\": \"Turkey\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://itigr.callisto.csgroup.space/SMAS/api/public/index.php/api/total",
+					"protocol": "http",
+					"host": [
+						"itigr",
+						"callisto",
+						"csgroup",
+						"space"
+					],
+					"path": [
+						"SMAS",
+						"api",
+						"public",
+						"index.php",
+						"api",
+						"total"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTimeline Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usecase\": \"border_surveillance\",\r\n    \"lang\": \"en\",\r\n    \"from\": 1630930237828,\r\n    \"to\": 1630934622927\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://itigr.callisto.csgroup.space/SMAS/api/public/index.php/api/timeline",
+					"protocol": "http",
+					"host": [
+						"itigr",
+						"callisto",
+						"csgroup",
+						"space"
+					],
+					"path": [
+						"SMAS",
+						"api",
+						"public",
+						"index.php",
+						"api",
+						"timeline"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetLocations Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usecase\": \"border_surveillance\",\r\n    \"lang\": \"en\",\r\n    \"from\": 1683126828143,\r\n    \"to\": 1683731628143,\r\n    \"keyword\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://itigr.callisto.csgroup.space/SMAS/api/public/index.php/api/locations",
+					"protocol": "http",
+					"host": [
+						"itigr",
+						"callisto",
+						"csgroup",
+						"space"
+					],
+					"path": [
+						"SMAS",
+						"api",
+						"public",
+						"index.php",
+						"api",
+						"locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostsPerDay Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usecase\": \"border_surveillance\",\r\n    \"lang\": \"en\",\r\n    \"from\": 1680526950071,\r\n    \"to\": 1681131750071\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://itigr.callisto.csgroup.space/SMAS/api/public/index.php/api/postsperday",
+					"protocol": "http",
+					"host": [
+						"itigr",
+						"callisto",
+						"csgroup",
+						"space"
+					],
+					"path": [
+						"SMAS",
+						"api",
+						"public",
+						"index.php",
+						"api",
+						"postsperday"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetKeywords Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usecase\": \"border_surveillance\",\r\n    \"lang\": \"en\",\r\n    \"from\": 1630930176792,\r\n    \"to\": 1630979883038\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://itigr.callisto.csgroup.space/SMAS/api/public/index.php/api/keywords",
+					"protocol": "http",
+					"host": [
+						"itigr",
+						"callisto",
+						"csgroup",
+						"space"
+					],
+					"path": [
+						"SMAS",
+						"api",
+						"public",
+						"index.php",
+						"api",
+						"keywords"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCoordinates Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usecase\": \"border_surveillance\",\r\n    \"lang\": \"en\",\r\n    \"from\": 1630930237828,\r\n    \"to\": 1630934622927\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://itigr.callisto.csgroup.space/SMAS/api/public/index.php/api/heatmap",
+					"protocol": "http",
+					"host": [
+						"itigr",
+						"callisto",
+						"csgroup",
+						"space"
+					],
+					"path": [
+						"SMAS",
+						"api",
+						"public",
+						"index.php",
+						"api",
+						"heatmap"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
